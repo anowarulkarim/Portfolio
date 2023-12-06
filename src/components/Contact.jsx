@@ -9,11 +9,11 @@ const Contact=()=>{
                 </div>
                 <div className=" flex justify-center items-center">
                     <form method="POST" action="https://getform.io/f/72b58404-8dd9-4b99-a8ce-f7e51a7a5cb9">
-                        <input type="text" name="name" placeholder="Enter your Name" className=" p-2  bg-transparent border-2 rounded-md text-white focus: outline-none"/>
+                        <input type="text" name="name" placeholder="Enter your Name" className=" p-2  bg-transparent border-2 rounded-md text-white focus: outline-none" required/>
                         <br></br>
-                        <input type="text" name="email" placeholder="Enter your email" className=" p-2 my-4 bg-transparent border-2 rounded-md text-white focus: outline-none"/>
+                        <input type="text" name="email" placeholder="Enter your email" className=" p-2 my-4 bg-transparent border-2 rounded-md text-white focus: outline-none" required/>
                          <br></br>
-                        <textarea type="text" rows={10} name="msg" placeholder="Enter the message" className=" p-2 bg-transparent border-2 rounded-md text-white focus: outline-none"/>
+                        <textarea type="text" rows={10} name="msg" placeholder="Enter the message" className=" p-2 bg-transparent border-2 rounded-md text-white focus: outline-none" required/>
                         <button className=" px-6 py-3 text-white bg-gradient-to-b from-cyan-100 to-blue-500 flex items-center rounded-md my-8 justify-center">Submit</button>
                     </form>
                 </div>
